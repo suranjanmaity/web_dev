@@ -1,0 +1,9 @@
+hi i am left
+first time git use karne ke liye id config karni hogi
+git config --global user.name "suranjan"
+git config --global user.email "suranjanmaity4@gmail.com"
+ye do command hai id and email config karne ke liye
+phir inko check karne ke liye
+git config --list
+ye command hai
+iske baad
