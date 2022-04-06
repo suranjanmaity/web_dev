@@ -1,0 +1,79 @@
+body{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin: 0rem 2rem;
+}
+*{
+    font-family: 'Red Hat Mono', monospace;
+    box-sizing: border-box;
+}
+a:link{
+    color: black;
+    font-weight: bolder;
+
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+    zoom: 110%;
+}
+a:active{
+    color: red;
+}
+/* header */
+header{
+    /* border: blue solid; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav{
+    /* border: blue solid; */
+    height: 90%;
+}
+ul{
+    /* border: blue solid; */
+    width: 20rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul li{
+    /* border: red solid; */
+    /* width: 60%; */
+    list-style: none;
+    font-size: 1.2rem;
+}
+/* main */
+.main-img{
+    width: 100%;
+    height: auto;
+    
+}
+.parent{
+    /* border:16px solid red ; */
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.child{
+    /* border: 5px solid blue; */
+    text-align: center;
+    width: 30%;
+}
+/* footer */
+.footer-parent{
+    height: 5rem;
+    background-color: black;
+    /* it is used to perfectly center a div */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-content{
+    color: white;
+    /* boldness */
+    font-weight: 300;
+    font-size: 1.5rem;
+    /* enforcement uppercase */
+    text-transform: uppercase;
+}
